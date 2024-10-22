@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Repositórios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subir Repositórios</h1>
+        <form id="repoForm">
+            <div class="form-group">
+                <label for="repoName">Nome do Repositório:</label>
+                <input type="text" id="repoName" name="repoName" required>
+            </div>
+            <div class="form-group">
+                <label for="repoUrl">URL do Repositório:</label>
+                <input type="url" id="repoUrl" name="repoUrl" required>
+            </div>
+            <button type="submit">Subir Repositório</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
